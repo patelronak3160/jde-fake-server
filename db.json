@@ -1,36 +1,134 @@
-{  
-      "parts": {
-            "BBL 3006WG-L": [
-              {
-                "itemCode": "155605",
-                "itemName": "E3RL-HDACE277",
-                "branchPlant": "HU",
-                "location": "1.A.1",
-                "lotSerialNumber": "20251",
-                "itemDescription": "E3 RD NF H DA CP EL 277",
-                "isStocked": "Y",
-                "partType": "",
-                "price": 47,
-                "onHand": 0,
-                "isCommited": 2,
-                "onOrder": 3,
-                "parentSku": "BBL 3006WG-L"
-              },
-              {
-                "itemCode": "221663",
-                "itemName": "700FJTPOYMC-LEDS830",
-                "branchPlant": "HU",
-                "location": "1.A.1",
-                "lotSerialNumber": "20251",
-                "itemDescription": "FJ-TOPO PEND GRAY MP  CH-LED",
-                "isStocked": "Y",
-                "partType": "FINIAL",
-                "price": 12.95,
-                "onHand": 9,
-                "isCommited": 2,
-                "onOrder": 0,
-                "parentSku": "BBL 3006WG-L"
-              }
-            ]
-      }
+{
+  "available-parts": [
+    {
+      "itemCode": "155605",
+      "itemName": "E3RL-HDACE277",
+      "branchPlant": "HU",
+      "location": "1.A.1",
+      "lotSerialNumber": "20251",
+      "itemDescription": "E3 RD NF H DA CP EL 277",
+      "isStocked": "Y",
+      "partType": "",
+      "price": 47,
+      "onHand": 0,
+      "isCommited": 2,
+      "onOrder": 3,
+      "parentSku": "BBL 3006WG-L"
+    },
+    {
+      "itemCode": "221663",
+      "itemName": "700FJTPOYMC-LEDS830",
+      "branchPlant": "HU",
+      "location": "1.A.1",
+      "lotSerialNumber": "20251",
+      "itemDescription": "FJ-TOPO PEND GRAY MP  CH-LED",
+      "isStocked": "Y",
+      "partType": "FINIAL",
+      "price": 12.95,
+      "onHand": 9,
+      "isCommited": 2,
+      "onOrder": 0,
+      "parentSku": "BBL 3006WG-L"
+    }
+  ],
+  "component-inventory": [
+    {
+      "componentSKU": "SK 5008AZ-CG",
+      "itemCode": "215986",
+      "itemName": "SH13X17X12L",
+      "whsCode": "Defect",
+      "onHand": 10,
+      "isCommited": 10,
+      "onOrder": 50,
+      "futureFree": 100
+    },
+    {
+      "componentSKU": "SK 5008AZ-CG",
+      "itemCode": "107487",
+      "itemName": "SK 5008AZ-CG",
+      "whsCode": "Defect",
+      "onHand": 65,
+      "isCommited": 30,
+      "onOrder": 35,
+      "futureFree": 82
+    },
+    {
+      "componentSKU": "SH13X17X12L",
+      "itemCode": "215986",
+      "itemName": "SH13X17X12L",
+      "whsCode": "Return",
+      "onHand": 5,
+      "isCommited": 120,
+      "onOrder": 510,
+      "futureFree": 111
+    },
+    {
+      "componentSKU": "SH13X17X12L",
+      "itemCode": "107487",
+      "itemName": "SK 5008AZ-CG",
+      "whsCode": "Samples",
+      "onHand": 61,
+      "isCommited": 88,
+      "onOrder": 64,
+      "futureFree": 13
+    }
+  ],
+  "instock-info": [
+    {
+      "itemCode": "333605",
+      "location": "1.A.1",
+      "lotSerialNumber": "20251",
+      "branchPlant": "09",
+      "binLabel": "092026FA",
+      "quantity": 10,
+      "product": "215928"
+    },
+    {
+      "itemCode": "333605",
+      "location": "1.A.2",
+      "lotSerialNumber": "20251",
+      "branchPlant": "10",
+      "binLabel": "104805GA",
+      "quantity": 3,
+      "product": "215928"
+    }
+  ],
+  "supply-info": [
+    {
+      "supplyType": "PO",
+      "docNumber": "120250321",
+      "docLine": 0,
+      "quantity": 5,
+      "openQuantity": 5,
+      "containerNumber": "",
+      "supplyStatus": "280",
+      "dueDate": "09/23/2025",
+      "superPromisedTo": "",
+      "superPromisedQuantity": 0
+    },
+    {
+      "supplyType": "PO",
+      "docNumber": "120240606",
+      "docLine": 4,
+      "quantity": 39,
+      "openQuantity": 39,
+      "containerNumber": "",
+      "supplyStatus": "280",
+      "dueDate": "07/24/2025",
+      "superPromisedTo": "",
+      "superPromisedQuantity": 0
+    },
+    {
+      "supplyType": "PO",
+      "docNumber": "120240320",
+      "docLine": 283,
+      "quantity": 23,
+      "openQuantity": 23,
+      "containerNumber": "SEGU4902804",
+      "supplyStatus": "400",
+      "dueDate": "04/25/2025",
+      "superPromisedTo": "",
+      "superPromisedQuantity": 0
+    }
+  ]
 }
