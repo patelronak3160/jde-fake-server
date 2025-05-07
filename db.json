@@ -1,34 +1,36 @@
 {  
-      "BBL 3006WG-L": [
-        {
-          "itemCode": "155605",
-          "itemName": "E3RL-HDACE277",
-          "branchPlant": "HU",
-          "location": "1.A.1",
-          "lotSerialNumber": "20251",
-          "itemDescription": "E3 RD NF H DA CP EL 277",
-          "isStocked": "Y",
-          "partType": "",
-          "price": 47,
-          "onHand": 0,
-          "isCommited": 2,
-          "onOrder": 3,
-          "parentSku": "BBL 3006WG-L"
-        },
-        {
-          "itemCode": "221663",
-          "itemName": "700FJTPOYMC-LEDS830",
-          "branchPlant": "HU",
-          "location": "1.A.1",
-          "lotSerialNumber": "20251",
-          "itemDescription": "FJ-TOPO PEND GRAY MP  CH-LED",
-          "isStocked": "Y",
-          "partType": "FINIAL",
-          "price": 12.95,
-          "onHand": 9,
-          "isCommited": 2,
-          "onOrder": 0,
-          "parentSku": "BBL 3006WG-L"
-        }
-      ]
+      "parts": {
+            "BBL 3006WG-L": [
+              {
+                "itemCode": "155605",
+                "itemName": "E3RL-HDACE277",
+                "branchPlant": "HU",
+                "location": "1.A.1",
+                "lotSerialNumber": "20251",
+                "itemDescription": "E3 RD NF H DA CP EL 277",
+                "isStocked": "Y",
+                "partType": "",
+                "price": 47,
+                "onHand": 0,
+                "isCommited": 2,
+                "onOrder": 3,
+                "parentSku": "BBL 3006WG-L"
+              },
+              {
+                "itemCode": "221663",
+                "itemName": "700FJTPOYMC-LEDS830",
+                "branchPlant": "HU",
+                "location": "1.A.1",
+                "lotSerialNumber": "20251",
+                "itemDescription": "FJ-TOPO PEND GRAY MP  CH-LED",
+                "isStocked": "Y",
+                "partType": "FINIAL",
+                "price": 12.95,
+                "onHand": 9,
+                "isCommited": 2,
+                "onOrder": 0,
+                "parentSku": "BBL 3006WG-L"
+              }
+            ]
+      }
 }
