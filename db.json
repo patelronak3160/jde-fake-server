@@ -1,8 +1,5 @@
 {  
-  "parts": [    
-    {
-      "id": "BBL 3006WG-L",
-      "parts": [
+      "BBL 3006WG-L": [
         {
           "itemCode": "155605",
           "itemName": "E3RL-HDACE277",
@@ -34,9 +31,4 @@
           "parentSku": "BBL 3006WG-L"
         }
       ]
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
 }
