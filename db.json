@@ -1,134 +1,1043 @@
 {
-  "available-parts": [
-    {
-      "itemCode": "155605",
-      "itemName": "E3RL-HDACE277",
-      "branchPlant": "HU",
-      "location": "1.A.1",
-      "lotSerialNumber": "20251",
-      "itemDescription": "E3 RD NF H DA CP EL 277",
-      "isStocked": "Y",
-      "partType": "",
-      "price": 47,
-      "onHand": 0,
-      "isCommited": 2,
-      "onOrder": 3,
-      "parentSku": "BBL 3006WG-L"
-    },
-    {
-      "itemCode": "221663",
-      "itemName": "700FJTPOYMC-LEDS830",
-      "branchPlant": "HU",
-      "location": "1.A.1",
-      "lotSerialNumber": "20251",
-      "itemDescription": "FJ-TOPO PEND GRAY MP  CH-LED",
-      "isStocked": "Y",
-      "partType": "FINIAL",
-      "price": 12.95,
-      "onHand": 9,
-      "isCommited": 2,
-      "onOrder": 0,
-      "parentSku": "BBL 3006WG-L"
-    }
-  ],
-  "component-inventory": [
-    {
-      "componentSKU": "SK 5008AZ-CG",
-      "itemCode": "215986",
-      "itemName": "SH13X17X12L",
-      "whsCode": "Defect",
-      "onHand": 10,
-      "isCommited": 10,
-      "onOrder": 50,
-      "futureFree": 100
-    },
-    {
-      "componentSKU": "SK 5008AZ-CG",
-      "itemCode": "107487",
-      "itemName": "SK 5008AZ-CG",
-      "whsCode": "Defect",
-      "onHand": 65,
-      "isCommited": 30,
-      "onOrder": 35,
-      "futureFree": 82
-    },
-    {
-      "componentSKU": "SH13X17X12L",
-      "itemCode": "215986",
-      "itemName": "SH13X17X12L",
-      "whsCode": "Return",
-      "onHand": 5,
-      "isCommited": 120,
-      "onOrder": 510,
-      "futureFree": 111
-    },
-    {
-      "componentSKU": "SH13X17X12L",
-      "itemCode": "107487",
-      "itemName": "SK 5008AZ-CG",
-      "whsCode": "Samples",
-      "onHand": 61,
-      "isCommited": 88,
-      "onOrder": 64,
-      "futureFree": 13
-    }
-  ],
-  "instock-info": [
-    {
-      "itemCode": "333605",
-      "location": "1.A.1",
-      "lotSerialNumber": "20251",
-      "branchPlant": "09",
-      "binLabel": "092026FA",
-      "quantity": 10,
-      "product": "215928"
-    },
-    {
-      "itemCode": "333605",
-      "location": "1.A.2",
-      "lotSerialNumber": "20251",
-      "branchPlant": "10",
-      "binLabel": "104805GA",
-      "quantity": 3,
-      "product": "215928"
-    }
-  ],
-  "supply-info": [
-    {
-      "supplyType": "PO",
-      "docNumber": "120250321",
-      "docLine": 0,
-      "quantity": 5,
-      "openQuantity": 5,
-      "containerNumber": "",
-      "supplyStatus": "280",
-      "dueDate": "09/23/2025",
-      "superPromisedTo": "",
-      "superPromisedQuantity": 0
-    },
-    {
-      "supplyType": "PO",
-      "docNumber": "120240606",
-      "docLine": 4,
-      "quantity": 39,
-      "openQuantity": 39,
-      "containerNumber": "",
-      "supplyStatus": "280",
-      "dueDate": "07/24/2025",
-      "superPromisedTo": "",
-      "superPromisedQuantity": 0
-    },
-    {
-      "supplyType": "PO",
-      "docNumber": "120240320",
-      "docLine": 283,
-      "quantity": 23,
-      "openQuantity": 23,
-      "containerNumber": "SEGU4902804",
-      "supplyStatus": "400",
-      "dueDate": "04/25/2025",
-      "superPromisedTo": "",
-      "superPromisedQuantity": 0
-    }
-  ]
+	"component-inventory": {
+		"itemCode": "215928",
+		"itemName": "290MOSRTC1Z",
+		"components": [
+			{
+				"itemCodeChild": "333605",
+				"itemNameChild": "700FJTPOYMC-LEDS830",
+				"inventory": [
+					{
+						"status": "Defect",
+						"inStock": 0,
+						"committed": 0,
+						"inProduction": 0
+					},
+					{
+						"status": "Rework",
+						"inStock": 1,
+						"committed": 0,
+						"inProduction": 0
+					},
+					{
+						"status": "Good",
+						"inStock": 111,
+						"committed": 6,
+						"inProduction": 170
+					},
+					{
+						"status": "Samples",
+						"inStock": 0,
+						"committed": 0,
+						"inProduction": 0
+					},
+					{
+						"status": "Return",
+						"inStock": 1,
+						"committed": 0,
+						"inProduction": 0
+					},
+					{
+						"status": "Open Box",
+						"inStock": 0,
+						"committed": 0,
+						"inProduction": 0
+					}
+				]
+			},
+			{
+				"itemCodeChild": "333605",
+				"itemNameChild": "SH13X17X12L",
+				"inventory": [
+					{
+						"status": "Defect",
+						"inStock": 0,
+						"committed": 0,
+						"inProduction": 0
+					},
+					{
+						"status": "Rework",
+						"inStock": 0,
+						"committed": 0,
+						"inProduction": 0
+					},
+					{
+						"status": "Good",
+						"inStock": 0,
+						"committed": 0,
+						"inProduction": 0
+					},
+					{
+						"status": "Samples",
+						"inStock": 0,
+						"committed": 0,
+						"inProduction": 0
+					},
+					{
+						"status": "Return",
+						"inStock": 0,
+						"committed": 0,
+						"inProduction": 0
+					},
+					{
+						"status": "Open Box",
+						"inStock": 0,
+						"committed": 0,
+						"inProduction": 0
+					}
+				]
+			}
+		]
+	},
+	"available-parts": [
+		{
+			"itemCode": "155605",
+			"itemName": "E3RL-HDACE277",
+			"branchPlant": "HU",
+			"location": "1.A.1",
+			"lotSerialNumber": "20251",
+			"itemDescription": "E3 RD NF H DA CP EL 277",
+			"isStocked": "Y",
+			"partType": "",
+			"price": 47,
+			"onHand": 0,
+			"isCommited": 2,
+			"onOrder": 3,
+			"parentSku": "BBL 3006WG-L"
+		},
+		{
+			"itemCode": "221663",
+			"itemName": "700FJTPOYMC-LEDS830",
+			"branchPlant": "HU",
+			"location": "1.A.1",
+			"lotSerialNumber": "20251",
+			"itemDescription": "FJ-TOPO PEND GRAY MP  CH-LED",
+			"isStocked": "Y",
+			"partType": "FINIAL",
+			"price": 12.95,
+			"onHand": 9,
+			"isCommited": 2,
+			"onOrder": 0,
+			"parentSku": "BBL 3006WG-L"
+		}
+	],
+	"weight-dimension-info": [
+		{
+			"ItemCode": "105445",
+			"Shipping Cartons": 1,
+			"Lamp SKU Code": "105445",
+			"Lamp SKU Name": "CHS 104B",
+			"Carton1 Quantity": 1,
+			"Carton1 Height": 23,
+			"Carton1 Width": 10,
+			"Carton1 Length": 10,
+			"Carton1 Weight": 1,
+			"Shade SKU Code": "",
+			"Shade SKU Name": "",
+			"Carton2 Quantity": 0,
+			"Carton2 Height": 0,
+			"Carton2 Width": 0,
+			"Carton2 Length": 0,
+			"Carton2 Weight": 0
+		}
+	],
+	"supply-info": {
+		"itemCode": "189870",
+		"itemName": "EMO14L-LH9303AC-ELV277B",
+		"PO": [
+			{
+				"supplyType": "PO",
+				"docNumber": "120250321",
+				"docLine": 0,
+				"quantity": 5,
+				"openQuantity": 5,
+				"containerNumber": "",
+				"supplyStatus": "280",
+				"dueDate": "09/23/2025",
+				"superPromisedTo": "",
+				"superPromisedQuantity": 0
+			},
+			{
+				"supplyType": "PO",
+				"docNumber": "120240606",
+				"docLine": 4,
+				"quantity": 39,
+				"openQuantity": 39,
+				"containerNumber": "",
+				"supplyStatus": "280",
+				"dueDate": "07/24/2025",
+				"superPromisedTo": "",
+				"superPromisedQuantity": 0
+			},
+			{
+				"supplyType": "PO",
+				"docNumber": "120240320",
+				"docLine": 283,
+				"quantity": 23,
+				"openQuantity": 23,
+				"containerNumber": "SEGU4902804",
+				"supplyStatus": "400",
+				"dueDate": "04/25/2025",
+				"superPromisedTo": "",
+				"superPromisedQuantity": 0
+			}
+		]
+	},
+	"demand-info": [
+		{
+			"orderCompany": "00001",
+			"itemCode": "215928",
+			"itemName": "290MOSRTC1Z",
+			"description": "KW3031BLK",
+			"customerNumber": "13958TX",
+			"customerName": "HORCHOW",
+			"type": "SO",
+			"documentNumber": "3337068",
+			"documentDate": "02/20/2025",
+			"releaseStatus": "Suspense Hold",
+			"estimatedShipDate": "02/20/2025",
+			"quantity": 1,
+			"openQuantity": 1,
+			"allocateFrom": "",
+			"allocateFromNumber": "",
+			"allocateFromLine": ""
+		}
+	],
+	"instock-info": [
+		{
+			"itemCode": "333605",
+			"location": "1.A.1",
+			"lotSerialNumber": "20251",
+			"branchPlant": "09",
+			"quantity": 10,
+			"product": "215928"
+		},
+		{
+			"itemCode": "333605",
+			"location": "1.A.2",
+			"lotSerialNumber": "20251",
+			"branchPlant": "10",
+			"quantity": 3,
+			"product": "215928"
+		}
+	],
+	"uk-china-availability": [
+		{
+			"itemcode": "217449",
+			"stockcode": "KW 2123AB-CRG",
+			"EG_OH": 49,
+			"EG_DUE14": 0,
+			"EG_DUE30": 0,
+			"EG_DUE45": 0,
+			"EG_DUE60": 0,
+			"EG_DUEOVER60": 0,
+			"CH_OH": 0,
+			"CH_DUE14": 0,
+			"CH_DUE30": 0,
+			"CH_DUE45": 0,
+			"CH_DUE60": 0,
+			"CH_DUEOVER60": 0
+		}
+	],
+	"info-by-itemcode": {
+		"ItemCode": "189870",
+		"itemName": "290MOSRTC1Z",
+		"companyNumber": "00001",
+		"BOM": [
+			{
+				"itemCodeChild": "52434",
+				"itemNameChild": "920MOSTSF"
+			},
+			{
+				"itemCodeChild": "11743",
+				"itemNameChild": "170MNRPNZ"
+			},
+			{
+				"itemCodeChild": "11739",
+				"itemNameChild": "170MNRPHZ"
+			}
+		]
+	},
+	"sales-summary": {
+		"companyNumber": "00001",
+		"itemCode": "104886",
+		"itemName": "LP794OPBZCF",
+		"salesByCirca": [
+			{
+				"msaLocation": "Philadelphia",
+				"designOnDisplay": "0",
+				"itemOnDisplay": "N",
+				"designUnits6Months": "6",
+				"designDollars6Months": "391.70",
+				"itemUnits6Months": "2",
+				"itemDollars6Months": "147.90"
+			},
+			{
+				"msaLocation": "Cleveland",
+				"designOnDisplay": "0",
+				"itemOnDisplay": "N",
+				"designUnits6Months": "6",
+				"designDollars6Months": "391.70",
+				"itemUnits6Months": "2",
+				"itemDollars6Months": "147.90"
+			}
+		],
+		"salesByCustomizationType": [
+			{
+				"customizationType": "ORIGINAL",
+				"soldUnits6Months": 6
+			},
+			{
+				"customizationType": "OAH",
+				"soldUnits6Months": 6
+			},
+			{
+				"customizationType": "HARDWIRE",
+				"soldUnits6Months": 6
+			},
+			{
+				"customizationType": "CHAIN",
+				"soldUnits6Months": 6
+			}
+		],
+		"salesByCustomerType": [
+			{
+				"customerType": "Circa",
+				"soldUnits6Months": 8
+			},
+			{
+				"customerType": "Ltg Store",
+				"soldUnits6Months": 2
+			}
+		]
+	},
+	"executive-summary": {
+		"holdStatus": "N/A",
+		"atp": 0,
+		"ado": "Discontinued",
+		"catalog": "In Catalog",
+		"website": "",
+		"artemis": "",
+		"hp": "",
+		"hpDisplay": "",
+		"hpScans": "",
+		"lv": "",
+		"lvDisplay": "",
+		"lvScans": "",
+		"dal": "2021-01-01 00:00:00.0",
+		"dalDisplay": "(N)",
+		"dalScans": "0",
+		"slRank": "E1",
+		"bcRank": "E1",
+		"executiveNotes": "",
+		"qerType": "N/A",
+		"sales": [
+			{
+				"months": "1",
+				"AtpPositive": 0,
+				"AtpTotalRecords": 31,
+				"AtpAverageUnits": 0,
+				"salesUnits": 0,
+				"salesDollar": 0,
+				"discountSalesUnits": 0,
+				"billedUnits": 0,
+				"billedDollar": 0,
+				"ReturnUnits": 0
+			},
+			{
+				"months": "2",
+				"AtpPositive": 0,
+				"AtpTotalRecords": 31,
+				"AtpAverageUnits": 0,
+				"salesUnits": 0,
+				"salesDollar": 0,
+				"discountSalesUnits": 0,
+				"billedUnits": 0,
+				"billedDollar": 0,
+				"ReturnUnits": 0
+			},
+			{
+				"months": "3",
+				"AtpPositive": 0,
+				"AtpTotalRecords": 31,
+				"AtpAverageUnits": 0,
+				"salesUnits": 0,
+				"salesDollar": 0,
+				"discountSalesUnits": 0,
+				"billedUnits": 0,
+				"billedDollar": 0,
+				"ReturnUnits": 0
+			},
+			{
+				"months": "4",
+				"AtpPositive": 0,
+				"AtpTotalRecords": 31,
+				"AtpAverageUnits": 0,
+				"salesUnits": 0,
+				"salesDollar": 0,
+				"discountSalesUnits": 0,
+				"billedUnits": 0,
+				"billedDollar": 0,
+				"ReturnUnits": 0
+			}
+		],
+		"cost": [
+			{
+				"rnk": "C1",
+				"tariff": "3.00",
+				"vendCost": "13.49",
+				"costOpenPO": "11",
+				"averageCost": "11"
+			},
+			{
+				"rnk": "C2",
+				"tariff": "3.00",
+				"vendCost": "13.49",
+				"costOpenPO": "12",
+				"averageCost": "12"
+			}
+		],
+		"inventory": [
+			{
+				"vendor": "Usc",
+				"vendorCode": "S18us1755m",
+				"nwl": "20",
+				"exp": "0",
+				"atp": "19",
+				"lct": "0",
+				"po": "1",
+				"ff": "20"
+			},
+			{
+				"vendor": "BOB",
+				"vendorCode": "BOB123",
+				"nwl": "20",
+				"exp": "0",
+				"atp": "19",
+				"lct": "0",
+				"po": "1",
+				"ff": "20"
+			}
+		],
+		"quality": [
+			{
+				"months": "1",
+				"minorDefectQty": 0,
+				"minorDefectPercent": 0,
+				"majorDefectQty": 0,
+				"majorDefectPercent": 0,
+				"manufactureReturnQty": 0,
+				"manufactureReturnPercent": 0,
+				"openQerQty": 0,
+				"openQerPercent": 0
+			},
+			{
+				"months": "2",
+				"minorDefectQty": 0,
+				"minorDefectPercent": 0,
+				"majorDefectQty": 0,
+				"majorDefectPercent": 0,
+				"manufactureReturnQty": 0,
+				"manufactureReturnPercent": 0,
+				"openQerQty": 0,
+				"openQerPercent": 0
+			},
+			{
+				"months": "3",
+				"minorDefectQty": 0,
+				"minorDefectPercent": 0,
+				"majorDefectQty": 0,
+				"majorDefectPercent": 0,
+				"manufactureReturnQty": 0,
+				"manufactureReturnPercent": 0,
+				"openQerQty": 0,
+				"openQerPercent": 0
+			},
+			{
+				"months": "Lifetime",
+				"minorDefectQty": 0,
+				"minorDefectPercent": 0,
+				"majorDefectQty": 0,
+				"majorDefectPercent": 0,
+				"manufactureReturnQty": 0,
+				"manufactureReturnPercent": 0,
+				"openQerQty": 0,
+				"openQerPercent": 0
+			},
+			{
+				"months": "Hold",
+				"minorDefectQty": 0,
+				"minorDefectPercent": 0,
+				"majorDefectQty": 0,
+				"majorDefectPercent": 0,
+				"manufactureReturnQty": 0,
+				"manufactureReturnPercent": 0,
+				"openQerQty": 0,
+				"openQerPercent": 0
+			}
+		],
+		"production": [
+			{
+				"months": "1",
+				"fwComponent": "0",
+				"rwComponent": "0",
+				"PwComponent": "0",
+				"customComponent": "0",
+				"oahComponent": "0",
+				"220vComponent": "0",
+				"hardwareComponent": "0",
+				"chainComponent": "0"
+			},
+			{
+				"months": "2",
+				"fwComponent": "0",
+				"rwComponent": "0",
+				"PwComponent": "0",
+				"customComponent": "0",
+				"oahComponent": "0",
+				"220vComponent": "0",
+				"hardwareComponent": "0",
+				"chainComponent": "0"
+			},
+			{
+				"months": "3",
+				"fwComponent": "0",
+				"rwComponent": "0",
+				"PwComponent": "0",
+				"customComponent": "0",
+				"oahComponent": "0",
+				"220vComponent": "0",
+				"hardwareComponent": "0",
+				"chainComponent": "0"
+			}
+		],
+		"BOM": [
+			{
+				"supplier": "SW",
+				"skuRank": "E1",
+				"availOh": 0,
+				"onOrder": 0,
+				"onLct": 0,
+				"futureFree": 0,
+				"quantity10": 0,
+				"quantity09": 0,
+				"quantity08": 0,
+				"cost": 37.43,
+				"costOnOpenPO": 0,
+				"lastPaid": 37.43,
+				"avgPrice": 37.43,
+				"pkgCube": 1.018519,
+				"aPrice": 135.95,
+				"yariff": 10,
+				"substitute": "CL9135VAN"
+			}
+		]
+	},
+	"selling-line-info": {
+		"itemCode": "333605",
+		"itemName": "SH13X17X12L",
+		"baseCodeRank": "Z1",
+		"monthlyData": [
+			{
+				"month": 1,
+				"units": 5,
+				"dollars": 226.45,
+				"ztrendsScans": 0,
+				"orders": 2,
+				"shippedUnits": 7,
+				"atp": 7,
+				"directUnits": 2,
+				"directDollars": 108.23,
+				"directMerchUnits": 0,
+				"bcUnits": 10,
+				"bcDollars": 572.78,
+				"relUnits": 65,
+				"relDollars": 27498.54,
+				"b2bNetRevenue": 0,
+				"netProfit": 0,
+				"gpm": 0,
+				"glm": 0
+			},
+			{
+				"month": 2,
+				"units": 5,
+				"dollars": 226.45,
+				"ztrendsScans": 0,
+				"orders": 2,
+				"shippedUnits": 7,
+				"atp": 7,
+				"directUnits": 2,
+				"directDollars": 108.23,
+				"directMerchUnits": 0,
+				"bcUnits": 10,
+				"bcDollars": 572.78,
+				"relUnits": 65,
+				"relDollars": 27498.54,
+				"b2bNetRevenue": 0,
+				"netProfit": 0,
+				"gpm": 0,
+				"glm": 0
+			},
+			{
+				"month": 3,
+				"units": 5,
+				"dollars": 226.45,
+				"ztrendsScans": 0,
+				"orders": 2,
+				"shippedUnits": 7,
+				"atp": 7,
+				"directUnits": 2,
+				"directDollars": 108.23,
+				"directMerchUnits": 0,
+				"bcUnits": 10,
+				"bcDollars": 572.78,
+				"relUnits": 65,
+				"relDollars": 27498.54,
+				"b2bNetRevenue": 0,
+				"netProfit": 0,
+				"gpm": 0,
+				"glm": 0
+			},
+			{
+				"month": 4,
+				"units": 5,
+				"dollars": 226.45,
+				"ztrendsScans": 0,
+				"orders": 2,
+				"shippedUnits": 7,
+				"atp": 8,
+				"directUnits": 2,
+				"directDollars": 108.23,
+				"directMerchUnits": 0,
+				"bcUnits": 10,
+				"bcDollars": 572.78,
+				"relUnits": 65,
+				"relDollars": 27498.54,
+				"b2bNetRevenue": 0,
+				"netProfit": 0,
+				"gpm": 0,
+				"glm": 0
+			},
+			{
+				"month": 5,
+				"units": 5,
+				"dollars": 226.45,
+				"ztrendsScans": 0,
+				"orders": 2,
+				"shippedUnits": 7,
+				"atp": 8,
+				"directUnits": 2,
+				"directDollars": 108.23,
+				"directMerchUnits": 0,
+				"bcUnits": 10,
+				"bcDollars": 572.78,
+				"relUnits": 65,
+				"relDollars": 27498.54,
+				"b2bNetRevenue": 0,
+				"netProfit": 0,
+				"gpm": 0,
+				"glm": 0
+			},
+			{
+				"month": 6,
+				"units": 5,
+				"dollars": 226.45,
+				"ztrendsScans": 0,
+				"orders": 2,
+				"shippedUnits": 8,
+				"atp": 8,
+				"directUnits": 2,
+				"directDollars": 108.23,
+				"directMerchUnits": 0,
+				"bcUnits": 10,
+				"bcDollars": 572.78,
+				"relUnits": 65,
+				"relDollars": 27498.54,
+				"b2bNetRevenue": 0,
+				"netProfit": 0,
+				"gpm": 0,
+				"glm": 0
+			},
+			{
+				"month": 7,
+				"units": 5,
+				"dollars": 226.45,
+				"ztrendsScans": 0,
+				"orders": 2,
+				"shippedUnits": 8,
+				"atp": 8,
+				"directUnits": 2,
+				"directDollars": 108.23,
+				"directMerchUnits": 0,
+				"bcUnits": 10,
+				"bcDollars": 572.78,
+				"relUnits": 65,
+				"relDollars": 27498.54,
+				"b2bNetRevenue": 0,
+				"netProfit": 0,
+				"gpm": 0,
+				"glm": 0
+			},
+			{
+				"month": 8,
+				"units": 5,
+				"dollars": 226.45,
+				"ztrendsScans": 0,
+				"orders": 2,
+				"shippedUnits": 8,
+				"atp": 8,
+				"directUnits": 2,
+				"directDollars": 108.23,
+				"directMerchUnits": 0,
+				"bcUnits": 11,
+				"bcDollars": 572.78,
+				"relUnits": 65,
+				"relDollars": 27498.54,
+				"b2bNetRevenue": 0,
+				"netProfit": 0,
+				"gpm": 0,
+				"glm": 0
+			},
+			{
+				"month": 9,
+				"units": 5,
+				"dollars": 226.45,
+				"ztrendsScans": 0,
+				"orders": 2,
+				"shippedUnits": 8,
+				"atp": 8,
+				"directUnits": 2,
+				"directDollars": 108.23,
+				"directMerchUnits": 0,
+				"bcUnits": 11,
+				"bcDollars": 572.78,
+				"relUnits": 65,
+				"relDollars": 27498.54,
+				"b2bNetRevenue": 0,
+				"netProfit": 0,
+				"gpm": 0,
+				"glm": 0
+			},
+			{
+				"month": 10,
+				"units": 5,
+				"dollars": 226.45,
+				"ztrendsScans": 0,
+				"orders": 2,
+				"shippedUnits": 8,
+				"atp": 8,
+				"directUnits": 2,
+				"directDollars": 108.23,
+				"directMerchUnits": 0,
+				"bcUnits": 11,
+				"bcDollars": 572.78,
+				"relUnits": 65,
+				"relDollars": 27498.54,
+				"b2bNetRevenue": 0,
+				"netProfit": 0,
+				"gpm": 0,
+				"glm": 0
+			},
+			{
+				"month": 11,
+				"units": 5,
+				"dollars": 226.45,
+				"ztrendsScans": 0,
+				"orders": 2,
+				"shippedUnits": 8,
+				"atp": 8,
+				"directUnits": 2,
+				"directDollars": 108.23,
+				"directMerchUnits": 0,
+				"bcUnits": 11,
+				"bcDollars": 572.78,
+				"relUnits": 65,
+				"relDollars": 27498.54,
+				"b2bNetRevenue": 0,
+				"netProfit": 0,
+				"gpm": 0,
+				"glm": 0
+			},
+			{
+				"month": 12,
+				"units": 6,
+				"dollars": 226.45,
+				"ztrendsScans": 0,
+				"orders": 3,
+				"shippedUnits": 8,
+				"atp": 8,
+				"directUnits": 3,
+				"directDollars": 108.23,
+				"directMerchUnits": 0,
+				"bcUnits": 11,
+				"bcDollars": 572.78,
+				"relUnits": 66,
+				"relDollars": 27498.54,
+				"b2bNetRevenue": 0,
+				"netProfit": 0,
+				"gpm": 0,
+				"glm": 0
+			}
+		]
+	},
+	"selling-line-details": {
+		"itemCode": "221663",
+		"itemName": "700FJTPOYMC-LEDS830",
+		"salesDetails": [
+			{
+				"custNumber": "13711GA",
+				"customerName": "REDEFINED LIGHTING",
+				"docNumber": "311633",
+				"docDate": "05/02/2025",
+				"quantity": 2,
+				"lineTotal": 120,
+				"shipToCity": "SUGAR HILL",
+				"shipToState": "GA",
+				"shipToCountry": "US"
+			},
+			{
+				"custNumber": "10115UT",
+				"customerName": "HANSEN LIGHTING",
+				"docNumber": "315668",
+				"docDate": "05/02/2025",
+				"quantity": 1,
+				"lineTotal": 49.95,
+				"shipToCity": "LINDON",
+				"shipToState": "UT",
+				"shipToCountry": "US"
+			},
+			{
+				"custNumber": "04668TX",
+				"customerName": "CIRCA HOUSTON",
+				"docNumber": "315621",
+				"docDate": "05/02/2025",
+				"quantity": 8,
+				"lineTotal": 399.6,
+				"shipToCity": "HOUSTON",
+				"shipToState": "TX",
+				"shipToCountry": "US"
+			},
+			{
+				"custNumber": "CA00043",
+				"customerName": "CITY LIGHTS",
+				"docNumber": "310678",
+				"docDate": "05/02/2025",
+				"quantity": 5,
+				"lineTotal": 0,
+				"shipToCity": "MILL VALLEY",
+				"shipToState": "CA",
+				"shipToCountry": "US"
+			},
+			{
+				"custNumber": "03092WI",
+				"customerName": "MADISON LIGHTING",
+				"docNumber": "315857",
+				"docDate": "05/02/2025",
+				"quantity": 2,
+				"lineTotal": 99.9,
+				"shipToCity": "MADISON",
+				"shipToState": "WI",
+				"shipToCountry": "US"
+			},
+			{
+				"custNumber": "03711GA",
+				"customerName": "CIRCA WEB ACCOUNT",
+				"docNumber": "317174",
+				"docDate": "05/02/2025",
+				"quantity": 1,
+				"lineTotal": 49.95,
+				"shipToCity": "SAN FRANCISCO",
+				"shipToState": "CA",
+				"shipToCountry": "US"
+			},
+			{
+				"custNumber": "12609NY",
+				"customerName": "FOUNDRY LIGHTING ONLINE",
+				"docNumber": "318493",
+				"docDate": "05/02/2025",
+				"quantity": 1,
+				"lineTotal": 0,
+				"shipToCity": "FARMINGTON HILLS",
+				"shipToState": "MI",
+				"shipToCountry": "US"
+			},
+			{
+				"custNumber": "09879CA",
+				"customerName": "LUMENS LIGHT & LIVING",
+				"docNumber": "3187462",
+				"docDate": "05/02/2025",
+				"quantity": 2,
+				"lineTotal": 99.9,
+				"shipToCity": "MIAMI BEACH",
+				"shipToState": "FL",
+				"shipToCountry": "US"
+			},
+			{
+				"custNumber": "03742MI",
+				"customerName": "RAIDEN-SCHUMACHER-MIO",
+				"docNumber": "3207298",
+				"docDate": "05/02/2025",
+				"quantity": 1,
+				"lineTotal": 0,
+				"shipToCity": "BIRMINGHAM",
+				"shipToState": "MI",
+				"shipToCountry": "US"
+			},
+			{
+				"custNumber": "10115UT",
+				"customerName": "HANSEN LIGHTING",
+				"docNumber": "3252603",
+				"docDate": "05/02/2025",
+				"quantity": 1,
+				"lineTotal": 49.95,
+				"shipToCity": "LINDON",
+				"shipToState": "UT",
+				"shipToCountry": "US"
+			}
+		]
+	},
+	"pa-os-basic-Info": {
+		"BusinessPartnersInfo": [],
+		"ContactInfo": [],
+		"StockCodeInfo": [],
+		"POInfo": [
+			{
+				"DocNum": "3338109",
+				"NumAtCard": "65629"
+			},
+			{
+				"DocNum": "3344298",
+				"NumAtCard": "65616"
+			},
+			{
+				"DocNum": "3382862",
+				"NumAtCard": "65677"
+			},
+			{
+				"DocNum": "3384854",
+				"NumAtCard": "65840"
+			},
+			{
+				"DocNum": "3397507",
+				"NumAtCard": "REPL/65677-CANOPY"
+			},
+			{
+				"DocNum": "3398452",
+				"NumAtCard": "65882"
+			}
+		]
+	},
+	"price-availability-search": {
+		"skuInfo": [
+			{
+				"itemCode": "288449",
+				"description": "Bryant Sconce in Antique Nickel with Linen Shade",
+				"lampSku": "110808",
+				"shadeSku": "290333",
+				"imap": 279
+			}
+		],
+		"priceInfo": [
+			{
+				"customerNumber": "08693CA",
+				"price": 109.76
+			},
+			{
+				"customerNumber": "0000VC",
+				"price": 279.0
+			}
+		],
+		"quantityInfo": [
+			{
+				"type": "LampOH",
+				"qty": 0.0
+			},
+			{
+				"type": "ShadeOH",
+				"qty": 5322.0
+			},
+			{
+				"type": "StockOH",
+				"qty": 0.0
+			}
+		],
+		"availabilityInfo": [
+			{
+				"type": "lampAvailable",
+				"availableDate": "2025-05-02 12:40:41.02",
+				"quantity": 69.0
+			},
+			{
+				"type": "lampAvailable",
+				"availableDate": "2025-10-03 00:00:00.0",
+				"quantity": 150.0
+			},
+			{
+				"type": "lampAvailable",
+				"availableDate": "2025-10-03 00:00:00.0",
+				"quantity": 10.0
+			},
+			{
+				"type": "lampAvailable",
+				"availableDate": "2025-08-29 00:00:00.0",
+				"quantity": 55.0
+			},
+			{
+				"type": "shadeAvailable",
+				"availableDate": "2025-05-02 12:40:41.02",
+				"quantity": 5322.0
+			},
+			{
+				"type": "shadeAvailable",
+				"availableDate": "2025-05-16 00:00:00.0",
+				"quantity": 4200.0
+			},
+			{
+				"type": "shadeAvailable",
+				"availableDate": "2025-07-23 00:00:00.0",
+				"quantity": 3615.0
+			},
+			{
+				"type": "shadeAvailable",
+				"availableDate": "2025-10-03 00:00:00.0",
+				"quantity": 1100.0
+			},
+			{
+				"type": "shadeAvailable",
+				"availableDate": "2025-10-03 00:00:00.0",
+				"quantity": 750.0
+			},
+			{
+				"type": "shadeAvailable",
+				"availableDate": "2025-08-29 00:00:00.0",
+				"quantity": 1800.0
+			}
+		]
+	},
+	"order-status-search": [
+		{
+			"docEntry": "2872210",
+			"lineNum": 0,
+			"docNum": "3278492",
+			"numAtCard": "PO01305428",
+			"itemName": "TOB 3142HAB",
+			"frgnName": "Totie Task Lamp in Hand-Rubbed Antique Brass",
+			"quantity": 5.0,
+			"openQty": 0.0,
+			"uCRelShip": "Shipped",
+			"uCEstShpc": "2025-02-06 04:15:35.07",
+			"uCContid": "OH",
+			"price": 203.36,
+			"lineStatus": "C",
+			"uPoCancellationCode": "01",
+			"uCancellation": "",
+			"visOrder": 0,
+			"blockNum": "1Z7261360392622587",
+			"trnspName": "UPS GND",
+			"shipDate": "2025-02-06 00:00:00.0",
+			"uSoOrderType": "Standard Order",
+			"uQMtoInsp": "N",
+			"uPartsReq": "N"
+		}
+	]
 }
