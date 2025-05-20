@@ -44,48 +44,6 @@
 						"inProduction": 0
 					}
 				]
-			},
-			{
-				"itemCodeChild": "333605",
-				"itemNameChild": "SH13X17X12L",
-				"inventory": [
-					{
-						"status": "Defect",
-						"inStock": 0,
-						"committed": 0,
-						"inProduction": 0
-					},
-					{
-						"status": "Rework",
-						"inStock": 0,
-						"committed": 0,
-						"inProduction": 0
-					},
-					{
-						"status": "Good",
-						"inStock": 0,
-						"committed": 0,
-						"inProduction": 0
-					},
-					{
-						"status": "Samples",
-						"inStock": 0,
-						"committed": 0,
-						"inProduction": 0
-					},
-					{
-						"status": "Return",
-						"inStock": 0,
-						"committed": 0,
-						"inProduction": 0
-					},
-					{
-						"status": "Open Box",
-						"inStock": 0,
-						"committed": 0,
-						"inProduction": 0
-					}
-				]
 			}
 		]
 	},
@@ -103,21 +61,6 @@
 			"onHand": 0,
 			"isCommited": 2,
 			"onOrder": 3,
-			"parentSku": "BBL 3006WG-L"
-		},
-		{
-			"itemCode": "221663",
-			"itemName": "700FJTPOYMC-LEDS830",
-			"branchPlant": "HU",
-			"location": "1.A.1",
-			"lotSerialNumber": "20251",
-			"itemDescription": "FJ-TOPO PEND GRAY MP  CH-LED",
-			"isStocked": "Y",
-			"partType": "FINIAL",
-			"price": 12.95,
-			"onHand": 9,
-			"isCommited": 2,
-			"onOrder": 0,
 			"parentSku": "BBL 3006WG-L"
 		}
 	],
@@ -156,30 +99,6 @@
 				"dueDate": "09/23/2025",
 				"superPromisedTo": "",
 				"superPromisedQuantity": 0
-			},
-			{
-				"supplyType": "PO",
-				"docNumber": "120240606",
-				"docLine": 4,
-				"quantity": 39,
-				"openQuantity": 39,
-				"containerNumber": "",
-				"supplyStatus": "280",
-				"dueDate": "07/24/2025",
-				"superPromisedTo": "",
-				"superPromisedQuantity": 0
-			},
-			{
-				"supplyType": "PO",
-				"docNumber": "120240320",
-				"docLine": 283,
-				"quantity": 23,
-				"openQuantity": 23,
-				"containerNumber": "SEGU4902804",
-				"supplyStatus": "400",
-				"dueDate": "04/25/2025",
-				"superPromisedTo": "",
-				"superPromisedQuantity": 0
 			}
 		]
 	},
@@ -210,14 +129,6 @@
 			"lotSerialNumber": "20251",
 			"branchPlant": "09",
 			"quantity": 10,
-			"product": "215928"
-		},
-		{
-			"itemCode": "333605",
-			"location": "1.A.2",
-			"lotSerialNumber": "20251",
-			"branchPlant": "10",
-			"quantity": 3,
 			"product": "215928"
 		}
 	],
@@ -251,10 +162,6 @@
 			{
 				"itemCodeChild": "11743",
 				"itemNameChild": "170MNRPNZ"
-			},
-			{
-				"itemCodeChild": "11739",
-				"itemNameChild": "170MNRPHZ"
 			}
 		]
 	},
@@ -271,32 +178,11 @@
 				"designDollars6Months": "391.70",
 				"itemUnits6Months": "2",
 				"itemDollars6Months": "147.90"
-			},
-			{
-				"msaLocation": "Cleveland",
-				"designOnDisplay": "0",
-				"itemOnDisplay": "N",
-				"designUnits6Months": "6",
-				"designDollars6Months": "391.70",
-				"itemUnits6Months": "2",
-				"itemDollars6Months": "147.90"
 			}
 		],
 		"salesByCustomizationType": [
 			{
 				"customizationType": "ORIGINAL",
-				"soldUnits6Months": 6
-			},
-			{
-				"customizationType": "OAH",
-				"soldUnits6Months": 6
-			},
-			{
-				"customizationType": "HARDWIRE",
-				"soldUnits6Months": 6
-			},
-			{
-				"customizationType": "CHAIN",
 				"soldUnits6Months": 6
 			}
 		],
@@ -304,10 +190,6 @@
 			{
 				"customerType": "Circa",
 				"soldUnits6Months": 8
-			},
-			{
-				"customerType": "Ltg Store",
-				"soldUnits6Months": 2
 			}
 		]
 	},
@@ -343,42 +225,6 @@
 				"billedUnits": 0,
 				"billedDollar": 0,
 				"ReturnUnits": 0
-			},
-			{
-				"months": "2",
-				"AtpPositive": 0,
-				"AtpTotalRecords": 31,
-				"AtpAverageUnits": 0,
-				"salesUnits": 0,
-				"salesDollar": 0,
-				"discountSalesUnits": 0,
-				"billedUnits": 0,
-				"billedDollar": 0,
-				"ReturnUnits": 0
-			},
-			{
-				"months": "3",
-				"AtpPositive": 0,
-				"AtpTotalRecords": 31,
-				"AtpAverageUnits": 0,
-				"salesUnits": 0,
-				"salesDollar": 0,
-				"discountSalesUnits": 0,
-				"billedUnits": 0,
-				"billedDollar": 0,
-				"ReturnUnits": 0
-			},
-			{
-				"months": "4",
-				"AtpPositive": 0,
-				"AtpTotalRecords": 31,
-				"AtpAverageUnits": 0,
-				"salesUnits": 0,
-				"salesDollar": 0,
-				"discountSalesUnits": 0,
-				"billedUnits": 0,
-				"billedDollar": 0,
-				"ReturnUnits": 0
 			}
 		],
 		"cost": [
@@ -388,13 +234,6 @@
 				"vendCost": "13.49",
 				"costOpenPO": "11",
 				"averageCost": "11"
-			},
-			{
-				"rnk": "C2",
-				"tariff": "3.00",
-				"vendCost": "13.49",
-				"costOpenPO": "12",
-				"averageCost": "12"
 			}
 		],
 		"inventory": [
@@ -430,77 +269,11 @@
 				"manufactureReturnPercent": 0,
 				"openQerQty": 0,
 				"openQerPercent": 0
-			},
-			{
-				"months": "2",
-				"minorDefectQty": 0,
-				"minorDefectPercent": 0,
-				"majorDefectQty": 0,
-				"majorDefectPercent": 0,
-				"manufactureReturnQty": 0,
-				"manufactureReturnPercent": 0,
-				"openQerQty": 0,
-				"openQerPercent": 0
-			},
-			{
-				"months": "3",
-				"minorDefectQty": 0,
-				"minorDefectPercent": 0,
-				"majorDefectQty": 0,
-				"majorDefectPercent": 0,
-				"manufactureReturnQty": 0,
-				"manufactureReturnPercent": 0,
-				"openQerQty": 0,
-				"openQerPercent": 0
-			},
-			{
-				"months": "Lifetime",
-				"minorDefectQty": 0,
-				"minorDefectPercent": 0,
-				"majorDefectQty": 0,
-				"majorDefectPercent": 0,
-				"manufactureReturnQty": 0,
-				"manufactureReturnPercent": 0,
-				"openQerQty": 0,
-				"openQerPercent": 0
-			},
-			{
-				"months": "Hold",
-				"minorDefectQty": 0,
-				"minorDefectPercent": 0,
-				"majorDefectQty": 0,
-				"majorDefectPercent": 0,
-				"manufactureReturnQty": 0,
-				"manufactureReturnPercent": 0,
-				"openQerQty": 0,
-				"openQerPercent": 0
 			}
 		],
 		"production": [
 			{
 				"months": "1",
-				"fwComponent": "0",
-				"rwComponent": "0",
-				"PwComponent": "0",
-				"customComponent": "0",
-				"oahComponent": "0",
-				"220vComponent": "0",
-				"hardwareComponent": "0",
-				"chainComponent": "0"
-			},
-			{
-				"months": "2",
-				"fwComponent": "0",
-				"rwComponent": "0",
-				"PwComponent": "0",
-				"customComponent": "0",
-				"oahComponent": "0",
-				"220vComponent": "0",
-				"hardwareComponent": "0",
-				"chainComponent": "0"
-			},
-			{
-				"months": "3",
 				"fwComponent": "0",
 				"rwComponent": "0",
 				"PwComponent": "0",
@@ -557,226 +330,6 @@
 				"netProfit": 0,
 				"gpm": 0,
 				"glm": 0
-			},
-			{
-				"month": 2,
-				"units": 5,
-				"dollars": 226.45,
-				"ztrendsScans": 0,
-				"orders": 2,
-				"shippedUnits": 7,
-				"atp": 7,
-				"directUnits": 2,
-				"directDollars": 108.23,
-				"directMerchUnits": 0,
-				"bcUnits": 10,
-				"bcDollars": 572.78,
-				"relUnits": 65,
-				"relDollars": 27498.54,
-				"b2bNetRevenue": 0,
-				"netProfit": 0,
-				"gpm": 0,
-				"glm": 0
-			},
-			{
-				"month": 3,
-				"units": 5,
-				"dollars": 226.45,
-				"ztrendsScans": 0,
-				"orders": 2,
-				"shippedUnits": 7,
-				"atp": 7,
-				"directUnits": 2,
-				"directDollars": 108.23,
-				"directMerchUnits": 0,
-				"bcUnits": 10,
-				"bcDollars": 572.78,
-				"relUnits": 65,
-				"relDollars": 27498.54,
-				"b2bNetRevenue": 0,
-				"netProfit": 0,
-				"gpm": 0,
-				"glm": 0
-			},
-			{
-				"month": 4,
-				"units": 5,
-				"dollars": 226.45,
-				"ztrendsScans": 0,
-				"orders": 2,
-				"shippedUnits": 7,
-				"atp": 8,
-				"directUnits": 2,
-				"directDollars": 108.23,
-				"directMerchUnits": 0,
-				"bcUnits": 10,
-				"bcDollars": 572.78,
-				"relUnits": 65,
-				"relDollars": 27498.54,
-				"b2bNetRevenue": 0,
-				"netProfit": 0,
-				"gpm": 0,
-				"glm": 0
-			},
-			{
-				"month": 5,
-				"units": 5,
-				"dollars": 226.45,
-				"ztrendsScans": 0,
-				"orders": 2,
-				"shippedUnits": 7,
-				"atp": 8,
-				"directUnits": 2,
-				"directDollars": 108.23,
-				"directMerchUnits": 0,
-				"bcUnits": 10,
-				"bcDollars": 572.78,
-				"relUnits": 65,
-				"relDollars": 27498.54,
-				"b2bNetRevenue": 0,
-				"netProfit": 0,
-				"gpm": 0,
-				"glm": 0
-			},
-			{
-				"month": 6,
-				"units": 5,
-				"dollars": 226.45,
-				"ztrendsScans": 0,
-				"orders": 2,
-				"shippedUnits": 8,
-				"atp": 8,
-				"directUnits": 2,
-				"directDollars": 108.23,
-				"directMerchUnits": 0,
-				"bcUnits": 10,
-				"bcDollars": 572.78,
-				"relUnits": 65,
-				"relDollars": 27498.54,
-				"b2bNetRevenue": 0,
-				"netProfit": 0,
-				"gpm": 0,
-				"glm": 0
-			},
-			{
-				"month": 7,
-				"units": 5,
-				"dollars": 226.45,
-				"ztrendsScans": 0,
-				"orders": 2,
-				"shippedUnits": 8,
-				"atp": 8,
-				"directUnits": 2,
-				"directDollars": 108.23,
-				"directMerchUnits": 0,
-				"bcUnits": 10,
-				"bcDollars": 572.78,
-				"relUnits": 65,
-				"relDollars": 27498.54,
-				"b2bNetRevenue": 0,
-				"netProfit": 0,
-				"gpm": 0,
-				"glm": 0
-			},
-			{
-				"month": 8,
-				"units": 5,
-				"dollars": 226.45,
-				"ztrendsScans": 0,
-				"orders": 2,
-				"shippedUnits": 8,
-				"atp": 8,
-				"directUnits": 2,
-				"directDollars": 108.23,
-				"directMerchUnits": 0,
-				"bcUnits": 11,
-				"bcDollars": 572.78,
-				"relUnits": 65,
-				"relDollars": 27498.54,
-				"b2bNetRevenue": 0,
-				"netProfit": 0,
-				"gpm": 0,
-				"glm": 0
-			},
-			{
-				"month": 9,
-				"units": 5,
-				"dollars": 226.45,
-				"ztrendsScans": 0,
-				"orders": 2,
-				"shippedUnits": 8,
-				"atp": 8,
-				"directUnits": 2,
-				"directDollars": 108.23,
-				"directMerchUnits": 0,
-				"bcUnits": 11,
-				"bcDollars": 572.78,
-				"relUnits": 65,
-				"relDollars": 27498.54,
-				"b2bNetRevenue": 0,
-				"netProfit": 0,
-				"gpm": 0,
-				"glm": 0
-			},
-			{
-				"month": 10,
-				"units": 5,
-				"dollars": 226.45,
-				"ztrendsScans": 0,
-				"orders": 2,
-				"shippedUnits": 8,
-				"atp": 8,
-				"directUnits": 2,
-				"directDollars": 108.23,
-				"directMerchUnits": 0,
-				"bcUnits": 11,
-				"bcDollars": 572.78,
-				"relUnits": 65,
-				"relDollars": 27498.54,
-				"b2bNetRevenue": 0,
-				"netProfit": 0,
-				"gpm": 0,
-				"glm": 0
-			},
-			{
-				"month": 11,
-				"units": 5,
-				"dollars": 226.45,
-				"ztrendsScans": 0,
-				"orders": 2,
-				"shippedUnits": 8,
-				"atp": 8,
-				"directUnits": 2,
-				"directDollars": 108.23,
-				"directMerchUnits": 0,
-				"bcUnits": 11,
-				"bcDollars": 572.78,
-				"relUnits": 65,
-				"relDollars": 27498.54,
-				"b2bNetRevenue": 0,
-				"netProfit": 0,
-				"gpm": 0,
-				"glm": 0
-			},
-			{
-				"month": 12,
-				"units": 6,
-				"dollars": 226.45,
-				"ztrendsScans": 0,
-				"orders": 3,
-				"shippedUnits": 8,
-				"atp": 8,
-				"directUnits": 3,
-				"directDollars": 108.23,
-				"directMerchUnits": 0,
-				"bcUnits": 11,
-				"bcDollars": 572.78,
-				"relUnits": 66,
-				"relDollars": 27498.54,
-				"b2bNetRevenue": 0,
-				"netProfit": 0,
-				"gpm": 0,
-				"glm": 0
 			}
 		]
 	},
@@ -805,94 +358,6 @@
 				"shipToCity": "LINDON",
 				"shipToState": "UT",
 				"shipToCountry": "US"
-			},
-			{
-				"custNumber": "04668TX",
-				"customerName": "CIRCA HOUSTON",
-				"docNumber": "315621",
-				"docDate": "05/02/2025",
-				"quantity": 8,
-				"lineTotal": 399.6,
-				"shipToCity": "HOUSTON",
-				"shipToState": "TX",
-				"shipToCountry": "US"
-			},
-			{
-				"custNumber": "CA00043",
-				"customerName": "CITY LIGHTS",
-				"docNumber": "310678",
-				"docDate": "05/02/2025",
-				"quantity": 5,
-				"lineTotal": 0,
-				"shipToCity": "MILL VALLEY",
-				"shipToState": "CA",
-				"shipToCountry": "US"
-			},
-			{
-				"custNumber": "03092WI",
-				"customerName": "MADISON LIGHTING",
-				"docNumber": "315857",
-				"docDate": "05/02/2025",
-				"quantity": 2,
-				"lineTotal": 99.9,
-				"shipToCity": "MADISON",
-				"shipToState": "WI",
-				"shipToCountry": "US"
-			},
-			{
-				"custNumber": "03711GA",
-				"customerName": "CIRCA WEB ACCOUNT",
-				"docNumber": "317174",
-				"docDate": "05/02/2025",
-				"quantity": 1,
-				"lineTotal": 49.95,
-				"shipToCity": "SAN FRANCISCO",
-				"shipToState": "CA",
-				"shipToCountry": "US"
-			},
-			{
-				"custNumber": "12609NY",
-				"customerName": "FOUNDRY LIGHTING ONLINE",
-				"docNumber": "318493",
-				"docDate": "05/02/2025",
-				"quantity": 1,
-				"lineTotal": 0,
-				"shipToCity": "FARMINGTON HILLS",
-				"shipToState": "MI",
-				"shipToCountry": "US"
-			},
-			{
-				"custNumber": "09879CA",
-				"customerName": "LUMENS LIGHT & LIVING",
-				"docNumber": "3187462",
-				"docDate": "05/02/2025",
-				"quantity": 2,
-				"lineTotal": 99.9,
-				"shipToCity": "MIAMI BEACH",
-				"shipToState": "FL",
-				"shipToCountry": "US"
-			},
-			{
-				"custNumber": "03742MI",
-				"customerName": "RAIDEN-SCHUMACHER-MIO",
-				"docNumber": "3207298",
-				"docDate": "05/02/2025",
-				"quantity": 1,
-				"lineTotal": 0,
-				"shipToCity": "BIRMINGHAM",
-				"shipToState": "MI",
-				"shipToCountry": "US"
-			},
-			{
-				"custNumber": "10115UT",
-				"customerName": "HANSEN LIGHTING",
-				"docNumber": "3252603",
-				"docDate": "05/02/2025",
-				"quantity": 1,
-				"lineTotal": 49.95,
-				"shipToCity": "LINDON",
-				"shipToState": "UT",
-				"shipToCountry": "US"
 			}
 		]
 	},
@@ -908,22 +373,6 @@
 			{
 				"DocNum": "3344298",
 				"NumAtCard": "65616"
-			},
-			{
-				"DocNum": "3382862",
-				"NumAtCard": "65677"
-			},
-			{
-				"DocNum": "3384854",
-				"NumAtCard": "65840"
-			},
-			{
-				"DocNum": "3397507",
-				"NumAtCard": "REPL/65677-CANOPY"
-			},
-			{
-				"DocNum": "3398452",
-				"NumAtCard": "65882"
 			}
 		]
 	},
@@ -971,46 +420,6 @@
 				"type": "lampAvailable",
 				"availableDate": "2025-10-03 00:00:00.0",
 				"quantity": 150.0
-			},
-			{
-				"type": "lampAvailable",
-				"availableDate": "2025-10-03 00:00:00.0",
-				"quantity": 10.0
-			},
-			{
-				"type": "lampAvailable",
-				"availableDate": "2025-08-29 00:00:00.0",
-				"quantity": 55.0
-			},
-			{
-				"type": "shadeAvailable",
-				"availableDate": "2025-05-02 12:40:41.02",
-				"quantity": 5322.0
-			},
-			{
-				"type": "shadeAvailable",
-				"availableDate": "2025-05-16 00:00:00.0",
-				"quantity": 4200.0
-			},
-			{
-				"type": "shadeAvailable",
-				"availableDate": "2025-07-23 00:00:00.0",
-				"quantity": 3615.0
-			},
-			{
-				"type": "shadeAvailable",
-				"availableDate": "2025-10-03 00:00:00.0",
-				"quantity": 1100.0
-			},
-			{
-				"type": "shadeAvailable",
-				"availableDate": "2025-10-03 00:00:00.0",
-				"quantity": 750.0
-			},
-			{
-				"type": "shadeAvailable",
-				"availableDate": "2025-08-29 00:00:00.0",
-				"quantity": 1800.0
 			}
 		]
 	},
